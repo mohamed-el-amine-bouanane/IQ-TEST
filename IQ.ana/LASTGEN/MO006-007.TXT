@@ -1,0 +1,12 @@
+//MO006-007.TXT ANA00006 TO ANA00007
+Historique		TAR	153	nouvelle taille enregistrement : 153
+Historique	Nom	RUB+		Nom est une nouvelle clé
+Historique	Prénom	RUB+		Prénom est une nouvelle clé
+Test_à_faire		TAR	148	nouvelle taille enregistrement : 148
+Test_à_faire	Nom	RUB+		Nom est une nouvelle clé
+Test_à_faire	Prénom	RUB+		Prénom est une nouvelle clé
+Patient	Nom	RRM		
+Historique	Nom	RRN		
+Historique	Prénom	RRN		
+Test_à_faire	Nom	RRN		
+Test_à_faire	Prénom	RRN		

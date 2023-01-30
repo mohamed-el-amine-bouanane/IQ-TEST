@@ -1,0 +1,3 @@
+//MO008-009.TXT ANA00008 TO ANA00009
+Question		NFI		nouveau fichier
+Question	Image	RRN		

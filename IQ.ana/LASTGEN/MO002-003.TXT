@@ -1,0 +1,10 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+Patient		BASE		La base du fichier est passée de HFSQL Classic à HFSQL Client/Serveur
+Patient		FCNX+	Connexion à '127.0.0.1'	
+Historique		BASE		La base du fichier est passée de HFSQL Classic à HFSQL Client/Serveur
+Historique		FCNX+	Connexion à '127.0.0.1'	
+Test_à_faire		BASE		La base du fichier est passée de HFSQL Classic à HFSQL Client/Serveur
+Test_à_faire		FCNX+	Connexion à '127.0.0.1'	
+Psychologue		BASE		La base du fichier est passée de HFSQL Classic à HFSQL Client/Serveur
+Psychologue		FCNX+	Connexion à '127.0.0.1'	
+Connexion à '127.0.0.1'		CNX+		

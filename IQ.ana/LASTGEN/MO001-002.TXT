@@ -1,0 +1,42 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+Patient		TAR	299	nouvelle taille enregistrement : 299
+Patient	Nom	RUB+		Nom est une nouvelle clé
+Patient	Prénom	RUB+		Prénom est une nouvelle clé
+Patient	Date_de_naissance	RUB+		Date_de_naissance est une nouvelle rubrique
+Patient	Email	RUB+		Email est une nouvelle clé
+Patient	Nom_utilisateur	RUB+		Nom_utilisateur est une nouvelle clé
+Patient	Mot_de_passe	RUB+		Mot_de_passe est une nouvelle rubrique
+Patient	Type	RUB+		Type est une nouvelle rubrique
+Patient	IDPsychologue	RUB+		IDPsychologue est une nouvelle clé
+Patient	Photo	RUB+		Photo est une nouvelle rubrique
+Historique		TAR	42	nouvelle taille enregistrement : 42
+Historique	IDPatient	RUB+		IDPatient est une nouvelle clé
+Historique	Numéro_du_test	RUB+		Numéro_du_test est une nouvelle rubrique
+Historique	Date_du_teste	RUB+		Date_du_teste est une nouvelle rubrique
+Historique	Résultat	RUB+		Résultat est une nouvelle rubrique
+Test_à_faire		TAR	46	nouvelle taille enregistrement : 46
+Test_à_faire	IDPatient	RUB+		IDPatient est une nouvelle clé
+Test_à_faire	IDPsychologue	RUB+		IDPsychologue est une nouvelle clé
+Test_à_faire	Numéro_du_test	RUB+		Numéro_du_test est une nouvelle rubrique
+Test_à_faire	Date_du_teste	RUB+		Date_du_teste est une nouvelle rubrique
+Psychologue		TAR	272	nouvelle taille enregistrement : 272
+Psychologue	Nom	RUB+		Nom est une nouvelle clé
+Psychologue	Prénom	RUB+		Prénom est une nouvelle clé
+Psychologue	Email	RUB+		Email est une nouvelle clé
+Psychologue	Nom_utilisateur	RUB+		Nom_utilisateur est une nouvelle clé
+Psychologue	Mot_de_passe	RUB+		Mot_de_passe est une nouvelle rubrique
+Contrainte_Patient_Historique		NWL	Patient (IDPatient) et Historique (IDPatient)	Nouvelle liaison entre les fichiers Patient (IDPatient) et Historique (IDPatient)
+Contrainte_Patient_Test_à_faire		NWL	Patient (IDPatient) et Test_à_faire (IDPatient)	Nouvelle liaison entre les fichiers Patient (IDPatient) et Test_à_faire (IDPatient)
+Contrainte_Psychologue_Patient		NWL	Psychologue (IDPsychologue) et Patient (IDPsychologue)	Nouvelle liaison entre les fichiers Psychologue (IDPsychologue) et Patient (IDPsychologue)
+Contrainte_Psychologue_Test_à_faire		NWL	Psychologue (IDPsychologue) et Test_à_faire (IDPsychologue)	Nouvelle liaison entre les fichiers Psychologue (IDPsychologue) et Test_à_faire (IDPsychologue)
+Patient	Nom	RRN		
+Patient	Prénom	RRN		
+Patient	Date_de_naissance	RRN		
+Patient	Email	RRN		
+Patient	Type	RRN		
+Psychologue	Nom	RRN		
+Psychologue	Prénom	RRN		
+Psychologue	Email	RRN		
+Test_à_faire	Date_du_teste	RRN		
+Historique	Date_du_teste	RRN		
+Patient	Photo	RRN		

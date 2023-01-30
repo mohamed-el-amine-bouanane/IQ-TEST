@@ -1,0 +1,5 @@
+//MO009-010.TXT ANA00009 TO ANA00010
+Question	Numéro_du_teste	RUB+		Numéro_du_teste est une nouvelle clé
+Question	Numéro_du_test	RUB-		la clé Numéro_du_test est supprimée
+Teste		NFI		nouveau fichier
+Contrainte_Teste_Question		NWL	Teste (Numéro_du_teste) et Question (Numéro_du_teste)	Nouvelle liaison entre les fichiers Teste (Numéro_du_teste) et Question (Numéro_du_teste)

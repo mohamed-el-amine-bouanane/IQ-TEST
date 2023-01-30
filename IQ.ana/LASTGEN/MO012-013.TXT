@@ -1,0 +1,22 @@
+//MO012-013.TXT ANA00012 TO ANA00013
+Historique		TAR	216	nouvelle taille enregistrement : 216
+Historique	Nom_du_test	NNR	Numéro_du_test	ATTENTION : la rubrique Numéro_du_test a pour nouveau nom Nom_du_test
+Historique	Nom_du_test	CNW	Chaîne$Entier sur 4 octets	la rubrique Nom_du_test a pour nouveau type Chaîne
+Historique	Date_du_test	NNR	Date_du_teste	ATTENTION : la rubrique Date_du_teste a pour nouveau nom Date_du_test
+Test_à_faire		TAR	195	nouvelle taille enregistrement : 195
+Test_à_faire	Nom_du_test	NNR	Numéro_du_test	ATTENTION : la rubrique Numéro_du_test a pour nouveau nom Nom_du_test
+Test_à_faire	Nom_du_test	CNW	Chaîne$Entier sur 4 octets	la rubrique Nom_du_test a pour nouveau type Chaîne
+Test_à_faire	Date_du_test	NNR	Date_du_teste	ATTENTION : la rubrique Date_du_teste a pour nouveau nom Date_du_test
+Question		TAR	42	nouvelle taille enregistrement : 42
+Question	Réponse	CNW	Caractère$Entier sur 4 octets	la rubrique Réponse a pour nouveau type Caractère
+Question	IDTest	RUB+		IDTest est une nouvelle clé
+Question	Numéro_du_teste	RUB-		la clé Numéro_du_teste est supprimée
+Test		NNF*	Teste	nouveau nom Test
+Test		TAR	72	nouvelle taille enregistrement : 72
+Test	IDTest	NNR	IDTeste	ATTENTION : la clé IDTeste a pour nouveau nom IDTest
+Test	Nom_du_test	NNR	Numéro_du_teste	ATTENTION : la clé Numéro_du_teste a pour nouveau nom Nom_du_test
+Test	Nom_du_test	CNW	Chaîne$Entier sur 4 octets	la rubrique Nom_du_test a pour nouveau type Chaîne
+Contrainte_Teste_Question		NWL	Test (IDTest) et Question (IDTest)	Nouvelle liaison entre les fichiers Test (IDTest) et Question (IDTest)
+Contrainte_Teste_Question		DEL	Teste (Numéro_du_teste) et Question (Numéro_du_teste)	Liaison supprimée entre les fichiers Teste (Numéro_du_teste) et Question (Numéro_du_teste)
+Test		FRN		
+Patient	Type	RRM		

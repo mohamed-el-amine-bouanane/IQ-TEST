@@ -1,0 +1,4 @@
+//MO004-005.TXT ANA00004 TO ANA00005
+Historique		TAR	50	nouvelle taille enregistrement : 50
+Historique	IDPsychologue	RUB+		IDPsychologue est une nouvelle clé
+Contrainte_Psychologue_Historique		NWL	Psychologue (IDPsychologue) et Historique (IDPsychologue)	Nouvelle liaison entre les fichiers Psychologue (IDPsychologue) et Historique (IDPsychologue)

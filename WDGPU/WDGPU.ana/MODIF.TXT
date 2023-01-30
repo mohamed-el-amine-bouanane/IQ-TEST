@@ -1,0 +1,76 @@
+//MO018-019.TXT ANA00018 TO ANA00019
+GPU_User		NNF*	GPU_Utilisateur	nouveau nom GPU_User
+GPU_User	UserID	NNR	IDUtilisateur	ATTENTION : la clé IDUtilisateur a pour nouveau nom UserID
+GPU_User	Name	NNR	Nom	ATTENTION : la rubrique Nom a pour nouveau nom Name
+GPU_User	FirstName	NNR	Prenom	ATTENTION : la rubrique Prenom a pour nouveau nom FirstName
+GPU_User	Password	NNR	MotPasse	ATTENTION : la rubrique MotPasse a pour nouveau nom Password
+GPU_User	Supervisor	NNR	Superviseur	ATTENTION : la rubrique Superviseur a pour nouveau nom Supervisor
+GPU_User	PasswordToEnter	NNR	MotPasseASaisir	ATTENTION : la rubrique MotPasseASaisir a pour nouveau nom PasswordToEnter
+GPU_User	Phone	NNR	Téléphone	ATTENTION : la rubrique Téléphone a pour nouveau nom Phone
+GPU_Group		NNF*	GPU_Groupe	nouveau nom GPU_Group
+GPU_Group	IDGroup	NNR	IDGroupe	ATTENTION : la clé IDGroupe a pour nouveau nom IDGroup
+GPU_Group	Name	NNR	Nom	ATTENTION : la clé Nom a pour nouveau nom Name
+GPU_Group	ParentGroupID	NNR	IDGroupeParent	ATTENTION : la clé IDGroupeParent a pour nouveau nom ParentGroupID
+GPU_Group	GroupIDParentGroup	NNR	IDGroupeGroupeParent	ATTENTION : la clé IDGroupeGroupeParent a pour nouveau nom GroupIDParentGroup
+GPU_User_Group		NNF*	GPU_Utilisateur_Groupe	nouveau nom GPU_User_Group
+GPU_User_Group	IDGroup	NNR	IDGroupe	ATTENTION : la clé IDGroupe a pour nouveau nom IDGroup
+GPU_User_Group	UserID	NNR	IDUtilisateur	ATTENTION : la clé IDUtilisateur a pour nouveau nom UserID
+GPU_User_Group	UserGroupID	NNR	IDUtilisateurGroupe	ATTENTION : la clé IDUtilisateurGroupe a pour nouveau nom UserGroupID
+GPU_Configuration	ConfigurationID	NNR	IDConfiguration	ATTENTION : la clé IDConfiguration a pour nouveau nom ConfigurationID
+GPU_Configuration	UserOrGroupID	NNR	IDUtilisateurOuGroupe	ATTENTION : la clé IDUtilisateurOuGroupe a pour nouveau nom UserOrGroupID
+GPU_Configuration	IsAGroup	NNR	EstUnGroupe	ATTENTION : la rubrique EstUnGroupe a pour nouveau nom IsAGroup
+GPU_Configuration	TargetID	NNR	IDCible	ATTENTION : la clé IDCible a pour nouveau nom TargetID
+GPU_Configuration	UserOrGroupIDIsAGroupTargetID	NNR	IDUtilisateurOuGroupeEstUnGroupeIDCible	ATTENTION : la clé IDUtilisateurOuGroupeEstUnGroupeIDCible a pour nouveau nom UserOrGroupIDIsAGroupTargetID
+GPU_Element	ElementID	NNR	IDElement	ATTENTION : la clé IDElement a pour nouveau nom ElementID
+GPU_Element	Name	NNR	Nom	ATTENTION : la clé Nom a pour nouveau nom Name
+GPU_Element	TargetID	NNR	IDCible	ATTENTION : la clé IDCible a pour nouveau nom TargetID
+GPU_Element	NameTargetD	NNR	NomIDCible	ATTENTION : la clé NomIDCible a pour nouveau nom NameTargetD
+GPU_Target		NNF*	GPU_Cible	nouveau nom GPU_Target
+GPU_Target	TargetID	NNR	IDCible	ATTENTION : la clé IDCible a pour nouveau nom TargetID
+GPU_Target	Name	NNR	Nom	ATTENTION : la clé Nom a pour nouveau nom Name
+GPU_Target	IsAnExternalComponent	NNR	EstUnComposantExterne	ATTENTION : la rubrique EstUnComposantExterne a pour nouveau nom IsAnExternalComponent
+GPU_Target	NameIsAnExternalComponent	NNR	NomEstUnComposantExterne	ATTENTION : la clé NomEstUnComposantExterne a pour nouveau nom NameIsAnExternalComponent
+GPU_Element_Configuration		NNF*	GPU_Configuration_Element	nouveau nom GPU_Element_Configuration
+GPU_Element_Configuration	ElementID	NNR	IDElement	ATTENTION : la clé IDElement a pour nouveau nom ElementID
+GPU_Element_Configuration	ConfigurationID	NNR	IDConfiguration	ATTENTION : la clé IDConfiguration a pour nouveau nom ConfigurationID
+GPU_Element_Configuration	ElementConfigurationID	NNR	IDConfigurationElement	ATTENTION : la clé IDConfigurationElement a pour nouveau nom ElementConfigurationID
+GPU_Element_Configuration	Status	NNR	Etat	ATTENTION : la rubrique Etat a pour nouveau nom Status
+GPU_ConnectionHistory		NNF*	GPU_HistoriqueConnexion	nouveau nom GPU_ConnectionHistory
+GPU_ConnectionHistory	ConnectionLogID	NNR	IDLogConnexion	ATTENTION : la clé IDLogConnexion a pour nouveau nom ConnectionLogID
+GPU_ConnectionHistory	TargetID	NNR	IDCible	ATTENTION : la clé IDCible a pour nouveau nom TargetID
+GPU_ConnectionHistory	UserID	NNR	IDUtilisateur	ATTENTION : la clé IDUtilisateur a pour nouveau nom UserID
+GPU_ConnectionHistory	ConnectionDate	NNR	DateConnexion	ATTENTION : la clé DateConnexion a pour nouveau nom ConnectionDate
+GPU_ConnectionHistory	ConnectionTime	NNR	HeureConnexion	ATTENTION : la clé HeureConnexion a pour nouveau nom ConnectionTime
+GPU_ConnectionHistory	IPAddress	NNR	AdresseIP	ATTENTION : la clé AdresseIP a pour nouveau nom IPAddress
+GPU_ConnectionHistory	UserIDTargetIDConnectionDate	NNR	IDUtilisateurIDCibleDateConnexion	ATTENTION : la clé IDUtilisateurIDCibleDateConnexion a pour nouveau nom UserIDTargetIDConnectionDate
+GPU_ConnectionHistory	TargetIDConnectionDate	NNR	IDCibleDateConnexion	ATTENTION : la clé IDCibleDateConnexion a pour nouveau nom TargetIDConnectionDate
+GPU_ConnectionHistory	UserIDConnectionDate	NNR	IDUtilisateurDateConnexion	ATTENTION : la clé IDUtilisateurDateConnexion a pour nouveau nom UserIDConnectionDate
+GPU_Options	EncryptionPWD	NNR	CryptageMDP	ATTENTION : la rubrique CryptageMDP a pour nouveau nom EncryptionPWD
+GPU_UserPWD		NNF*	GPU_UtilisateurMDP	nouveau nom GPU_UserPWD
+GPU_UserPWD	UserID	NNR	IDUtilisateur	ATTENTION : la clé IDUtilisateur a pour nouveau nom UserID
+GPU_UserPWD	EncryptedPassword	NNR	MotPasseCrypte	ATTENTION : la rubrique MotPasseCrypte a pour nouveau nom EncryptedPassword
+GPU_WebUser		NNF*	GPU_UtilisateurWeb	nouveau nom GPU_WebUser
+GPU_WebUser	UserID	NNR	IDUtilisateur	ATTENTION : la clé IDUtilisateur a pour nouveau nom UserID
+GPU_WebUser	IDExternal	NNR	IDExterne	ATTENTION : la clé IDExterne a pour nouveau nom IDExternal
+GPU_WebUser	ActionCode	NNR	CodeAction	ATTENTION : la clé CodeAction a pour nouveau nom ActionCode
+GPU_WebUser	DateActionCode	NNR	DateCodeAction	ATTENTION : la rubrique DateCodeAction a pour nouveau nom DateActionCode
+GPU_ExportSecurity		NNF*	GPU_SecuriteExport	nouveau nom GPU_ExportSecurity
+GPU_ExportSecurity	ExportSecurityID	NNR	IDSecuriteExport	ATTENTION : la clé IDSecuriteExport a pour nouveau nom ExportSecurityID
+GPU_ExportSecurity	UserOrGroupID	NNR	IDUtilisateurOuGroupe	ATTENTION : la clé IDUtilisateurOuGroupe a pour nouveau nom UserOrGroupID
+GPU_ExportSecurity	IsAGroup	NNR	EstUnGroupe	ATTENTION : la rubrique EstUnGroupe a pour nouveau nom IsAGroup
+GPU_ExportSecurity	UserOrGroupIDIsAGroup	NNR	IDUtilisateurOuGroupeEstUnGroupe	ATTENTION : la clé IDUtilisateurOuGroupeEstUnGroupe a pour nouveau nom UserOrGroupIDIsAGroup
+GPU_ExportPassword		NNF*	GPU_MotPasseExport	nouveau nom GPU_ExportPassword
+GPU_ExportPassword	ExportPasswordID	NNR	IDMotPasseExport	ATTENTION : la clé IDMotPasseExport a pour nouveau nom ExportPasswordID
+GPU_ExportPassword	Password	NNR	MotPasse	ATTENTION : la rubrique MotPasse a pour nouveau nom Password
+GPU_ExportPassword	DialogMessage	NNR	MessageDialogue	ATTENTION : la rubrique MessageDialogue a pour nouveau nom DialogMessage
+Constraint_WDGPU_User_WDGPU_Group		LMN	Contrainte_WDGPU_Utilisateur_WDGPU_Groupe	
+Constraint_WDGPU_Group_WDGPU_User		LMN	Contrainte_WDGPU_Groupe_WDGPU_Utilisateur	
+Constraint_WDGPU_Configuration_WDGPU_Target		LMN	Contrainte_WDGPU_Configuration_WDGPU_Cible	
+Constraint_WDGPU_Target_WDGPU_Element		LMN	Contrainte_WDGPU_Cible_WDGPU_Element	
+Constraint_WDGPU_Configuration_WDGPU_Element		LMN	Contrainte_WDGPU_Configuration_WDGPU_Element	
+Constraint_WDGPU_Element_WDGPU_Configuration		LMN	Contrainte_WDGPU_Element_WDGPU_Configuration	
+Constraint_Group_Group		LMN	Contrainte_Groupe_Groupe	
+Constraint_ConnectionHistory_Target		LMN	Contrainte_HistoriqueConnexion_Cible	
+Constraint_ConnectionHistory_User		LMN	Contrainte_HistoriqueConnexion_Utilisateur	
+Constraint_GPU_User_GPU_UserPWD		LMN	Contrainte_GPU_Utilisateur_GPU_UtilisateurMDP	
+Constraint_GPU_User_GPU_WebUser		LMN	Contrainte_GPU_Utilisateur_GPU_UtilisateurWeb	

@@ -1,0 +1,6 @@
+//MO011-012.TXT ANA00011 TO ANA00012
+Historique		TAR	169	nouvelle taille enregistrement : 169
+Historique	P1	RUB+		P1 est une nouvelle rubrique
+Historique	P2	RUB+		P2 est une nouvelle rubrique
+Historique	P3	RUB+		P3 est une nouvelle rubrique
+Historique	P4	RUB+		P4 est une nouvelle rubrique

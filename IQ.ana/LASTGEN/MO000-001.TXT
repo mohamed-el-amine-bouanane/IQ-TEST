@@ -1,0 +1,5 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+Patient		NFI		nouveau fichier
+Historique		NFI		nouveau fichier
+Test_à_faire		NFI		nouveau fichier
+Psychologue		NFI		nouveau fichier
